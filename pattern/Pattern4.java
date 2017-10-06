@@ -1,6 +1,8 @@
-class Pattern4 
+//box of stars with diagonals also stared
+
+class Pattern4
 {
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		int n = 13;
 		for (int row = 0;row < n ;row++)

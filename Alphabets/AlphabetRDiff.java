@@ -1,6 +1,4 @@
-package com.alphabets;
-
-public class AlphabetRDiff {
+	class AlphabetRDiff {
 
 	public static void main(String[] args) {
 		int n=15;
@@ -16,7 +14,7 @@ public class AlphabetRDiff {
 			}
 			System.out.println();
 		}
-		
+
 		for (int rows = 0; rows <= n/2; rows++) {
 			for (int col = 0; col <=n/2; col++) {
 				if(rows==col||col==0)

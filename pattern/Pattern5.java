@@ -1,6 +1,8 @@
-class Pattern4 
+//box of stars
+
+class Pattern5
 {
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		for (int row = 1;row <= 4 ;row++)
 		{

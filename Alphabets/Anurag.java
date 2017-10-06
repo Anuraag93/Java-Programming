@@ -1,6 +1,4 @@
-package com.alphabets;
-
-public class Anurag {
+class Anurag {
 
 	public static void main(String[] args) {
 		int n=7;
@@ -62,9 +60,14 @@ public class Anurag {
 
 		//G
 		for (int rows = 0; rows < n; rows++) {
-			for (int cols = n/2; cols < n; cols++) {
-				if(cols==n/2||(rows==0||rows==n/2)&&cols!=n-1||cols==n-1&&rows!=0&&rows<n/2||rows==cols)
-					System.out.print("R ");
+			for (int cols = 0; cols < n; cols++) {
+				if(rows == 0&&cols!=0
+				||cols==0&&rows!=0&&rows!=n-1
+				||rows==n-1&&cols!=0
+				||cols==n/2&&rows>=n/2&&rows!=n-2
+				||cols==n-1&&rows>=n/2
+				||rows==n/2&&cols>=n/2)
+					System.out.print("G ");
 				else
 					System.out.print("  ");
 			}

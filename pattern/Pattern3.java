@@ -1,6 +1,12 @@
-class Pattern3 
+//the program output is like
+5 4 3 2 1
+5 4 3 2 1
+5 4 3 2 1
+
+
+class Pattern3
 {
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		for(int row = 1; row <= 3; row++)
 		{

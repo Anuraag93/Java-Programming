@@ -1,6 +1,4 @@
-package com.alphabets;
-
-public class AlphabetA {
+class AlphabetA {
 
 	public static void main(String[] args) {
 		int n=11;
